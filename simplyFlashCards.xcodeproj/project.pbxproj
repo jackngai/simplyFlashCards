@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		98EFC62A1F28E8FE0002D82F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EFC6291F28E8FE0002D82F /* AppDelegate.swift */; };
-		98EFC62C1F28E8FE0002D82F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EFC62B1F28E8FE0002D82F /* ViewController.swift */; };
-		98EFC62F1F28E8FE0002D82F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EFC62D1F28E8FE0002D82F /* Main.storyboard */; };
 		98EFC6311F28E8FE0002D82F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EFC6301F28E8FE0002D82F /* Assets.xcassets */; };
 		98EFC6341F28E8FE0002D82F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EFC6321F28E8FE0002D82F /* LaunchScreen.storyboard */; };
+		98EFC63C1F28E98E0002D82F /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EFC63B1F28E98E0002D82F /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98EFC6261F28E8FE0002D82F /* simplyFlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simplyFlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EFC6291F28E8FE0002D82F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98EFC62B1F28E8FE0002D82F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		98EFC62E1F28E8FE0002D82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98EFC6301F28E8FE0002D82F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98EFC6331F28E8FE0002D82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98EFC6351F28E8FE0002D82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98EFC63B1F28E98E0002D82F /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				98EFC6291F28E8FE0002D82F /* AppDelegate.swift */,
-				98EFC62B1F28E8FE0002D82F /* ViewController.swift */,
-				98EFC62D1F28E8FE0002D82F /* Main.storyboard */,
+				98EFC63B1F28E98E0002D82F /* CardViewController.swift */,
 				98EFC6301F28E8FE0002D82F /* Assets.xcassets */,
 				98EFC6321F28E8FE0002D82F /* LaunchScreen.storyboard */,
 				98EFC6351F28E8FE0002D82F /* Info.plist */,
@@ -124,7 +121,6 @@
 			files = (
 				98EFC6341F28E8FE0002D82F /* LaunchScreen.storyboard in Resources */,
 				98EFC6311F28E8FE0002D82F /* Assets.xcassets in Resources */,
-				98EFC62F1F28E8FE0002D82F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98EFC62C1F28E8FE0002D82F /* ViewController.swift in Sources */,
+				98EFC63C1F28E98E0002D82F /* CardViewController.swift in Sources */,
 				98EFC62A1F28E8FE0002D82F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		98EFC62D1F28E8FE0002D82F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				98EFC62E1F28E8FE0002D82F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		98EFC6321F28E8FE0002D82F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
