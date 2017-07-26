@@ -300,6 +300,7 @@
 				98EFC63A1F28E8FE0002D82F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
