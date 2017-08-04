@@ -12,7 +12,7 @@ import UIKit
 
 class CardViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
     
-    let wordView = UITextField(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width * 0.8, height: UIScreen.main.bounds.height * 0.6))
+    let wordView = UILabel(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width * 0.8, height: UIScreen.main.bounds.height * 0.6))
     let leftButton:UIButton = {
         let button = UIButton()
         button.setImage(#imageLiteral(resourceName: "left"), for: .normal)
@@ -113,14 +113,15 @@ class CardViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelega
         wordView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         
         leftButton.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
-        leftButton.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        leftButton.heightAnchor.constraint(equalTo: view.heightAnchor).isActive = true
-        leftButton.widthAnchor.constraint(equalToConstant: 44).isActive = true
+        leftButton.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        leftButton.heightAnchor.constraint(equalToConstant: 72).isActive = true
+        leftButton.widthAnchor.constraint(equalToConstant: 72).isActive = true
         
         rightButton.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
-        rightButton.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        rightButton.heightAnchor.constraint(equalTo: view.heightAnchor).isActive = true
-        rightButton.widthAnchor.constraint(equalToConstant: 44).isActive = true
+        rightButton.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        //rightButton.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        rightButton.heightAnchor.constraint(equalToConstant: 72).isActive = true
+        rightButton.widthAnchor.constraint(equalToConstant: 72).isActive = true
     }
     
     // Populate the wordsArray with words from a sample spreadsheet:
